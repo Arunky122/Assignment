@@ -19,13 +19,31 @@ body{
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    background-color: rgb(168, 221, 214);
+    background-color: rgb(216, 217, 230);
     padding-top: 15px;
     padding-bottom: 15px;
 
 }
-.first-header:nth-child(){
-    /* margin-right:10px; */
+.first-header p a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: lightseagreen;
+}
+.first-header #id-1 a{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border: 2px solid darkblue;
+    color: darkblue;
+    padding: 5px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out ;
+}
+.first-header #id-1 a:hover{
+    color: white;
+    background-color: darkblue;
 }
 .second-header{
     
@@ -762,7 +780,7 @@ footer{
     padding: 5px 10px;
 }
 #subscription form button{
-    width: 5%;
+    /* width: 5%; */
     border:none;
     outline: none;
     background-color: white;
@@ -936,7 +954,7 @@ footer{
 }
 
 
- @media screen and (max-width:400px){
+ @media screen and (max-width:450px){
     .card{
         width : 70%;
         margin: 10px 0px;
